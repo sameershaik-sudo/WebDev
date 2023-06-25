@@ -67,6 +67,6 @@ app.post("/failure", function(req, res) {
 });
 
 
-//a8fa4437205f91536aae984cc361a377-us21 AUDIENCE ID
+
 
 //fd9fb9fada LIST ID
