@@ -1,5 +1,6 @@
 body {
     font-family: Cormorant, serif;
+    background-color: #F7F2EE;
 }
 
 h1{
@@ -41,6 +42,9 @@ a.active {
     width: 100%;
     object-fit: cover;
 }
+.card img:hover{
+    opacity: 0.9;
+}
 
 .card {
     width: 49.75%;
@@ -59,3 +63,32 @@ a.active {
 .gallery {
     padding: 16px;
 }
+
+.about{
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.cta {
+    margin-top: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
